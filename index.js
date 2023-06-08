@@ -23,6 +23,6 @@ const port= process.env.port || 3001;
 
 server.use(router);
 server.use(middleWare);
-server.use(cors(corsOptions(domainList)))
+server.use(cors())
 
 server.listen(port);
