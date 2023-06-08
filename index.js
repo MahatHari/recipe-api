@@ -6,7 +6,7 @@ const server= jsonServer.create();
 const router=jsonServer.router("db.json");
 const middleWare= jsonServer.defaults();
 
-const cors= domainList=["https://mellifluous-eclair-5bf6e9.netlify.app/"]
+const domainList=["https://mellifluous-eclair-5bf6e9.netlify.app/"]
 
 const corsOptions = {
     origin: function (origin, callback) {
